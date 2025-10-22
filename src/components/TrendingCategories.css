@@ -1,0 +1,112 @@
+.trending-categories {
+  background: linear-gradient(180deg, #fff8f0 0%, #fffaf5 100%);
+  text-align: center;
+  padding: 70px 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.tc-title {
+  font-size: 2.8rem;
+  color: #d4af37;
+  font-weight: 600;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+/* Optional gold underline */
+.tc-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #d4af37;
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+.tc-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tc-card {
+  position: relative;
+  width: 220px;
+  height: auto;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tc-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.tc-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+  border-radius: 15px 15px 0 0;
+}
+
+.tc-card:hover .tc-image {
+  transform: scale(1.1);
+}
+
+/* Category name BELOW the image */
+.tc-name {
+  width: 100%;
+  background: #fff;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 12px 0;
+  border-top: 2px solid #f3e5ab;
+  transition: color 0.3s ease;
+}
+
+.tc-card:hover .tc-name {
+  color: #d4af37;
+}
+
+/* Responsive styling */
+@media (max-width: 1024px) {
+  .tc-card {
+    width: 180px;
+  }
+
+  .tc-image {
+    height: 200px;
+  }
+
+  .tc-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .tc-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .tc-card {
+    width: 100%;
+  }
+}

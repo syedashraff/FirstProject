@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.abc{
+  background-color: aqua;
+  color: black;
+  font-style: italic;
+}
+.ama{
+   background-color: violet;
+  color: black;
+  font-style: italic;
+}
