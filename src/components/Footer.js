@@ -67,10 +67,10 @@ function Footer() {
         <div className="footer-links">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="#collections">Collections</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#Collections">Collections</a></li>
+            <li><a href="#About">About Us</a></li>
+            <li><a href="#Reviews">Reviews</a></li>
+            <li><a href="#Home">Home</a></li>
           </ul>
         </div>
 
