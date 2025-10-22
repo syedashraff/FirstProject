@@ -1,20 +1,3 @@
-// import React from 'react';
-// import './HeroSection.css';
-
-// function HeroSection() {
-//   return (
-//     <section className="hero" id='Home'>
-//       <div className="hero-content">
-//         <h1>Discover Timeless Elegance</h1>
-//         <p>Explore our exquisite handcrafted jewellery collections.</p>
-//         <button>Shop Now</button>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default HeroSection;
-
 
 
 
@@ -25,6 +8,7 @@ const images = [
   '/hero1.jpg',
   '/hero2.jpg',
   '/hero3.jpg',
+
 ];
 
 function HeroSection() {
@@ -58,6 +42,7 @@ function HeroSection() {
     </section>
   );
 }
+
 
 export default HeroSection;
 
